@@ -1,0 +1,138 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: linear-gradient(to right, #25c481, #25b7c4);
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.quest-dvsn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.quest-dvsn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  opacity: 60%;
+  color: #105056;
+  border-radius: 4px;
+  border: solid 1.5px #187881;
+  box-shadow: 2px 2px 8px #187881;
+}
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 80%;
+  letter-spacing: 1px;
+}
+.get-data {
+  padding: 15px 25px;
+  border: solid 1px #105056;
+  border-radius: 5px;
+  color: #105056;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.table-general-wrapper {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: #ffffff;
+  /* text-transform: uppercase; */
+  height: 100vh;
+}
+.blur {
+  filter: blur(8px);
+}
+.blur-dvsn-general-wrapper {
+  position: absolute;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.after-blur-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  width: 45%;
+  background-color: #ffffff;
+  color: #187881;
+  border-radius: 5px;
+}
+table {
+  table-layout: fixed;
+  border: 1.5px solid #ffffff;
+  border-right: 1.8px solid #ffffff;
+  opacity: 90%;
+  text-align: center;
+  border-collapse: collapse;
+}
+thead {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+  font-weight: bolder;
+  display: block;
+}
+tbody {
+  display: block;
+  height: 250px;
+  overflow-y: scroll;
+}
+td {
+  width: 220px;
+  height: 80px;
+}
+tbody td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+tbody tr:hover {
+  color: #187881;
+}
+
+.error-dvsn {
+  top: 0;
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+}
+.error-image {
+  height: 100%;
+  width: 50%;
+}
+.add-data {
+  padding: 20px 30px;
+  background-color: #ffffff;
+  opacity: 50%;
+  border: none;
+  color: #105056;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 50px;
+}
